@@ -21,7 +21,9 @@ header{
     background: #333;
     color: #fff;
     padding: 9.02em;
-    text-align: center;  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 #about{
     background:#dccccc ;
@@ -94,4 +96,5 @@ header{
 }
 .boute1{
     margin-left:-100px;
+
 } */
