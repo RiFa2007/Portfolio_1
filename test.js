@@ -1,0 +1,3 @@
+function PremiereFunc(){
+    alert("Bonjour");
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container-fluid m-0">
+   <section id="projects">
+  <header>
+  <h1>Projets</h1>
+  <p class="intro"> Au bout d'un semestre dans le monde de l'informatique, j'ai pu participer à plusieur projets !</p>
+  </header>
+  
+  <h3> Projet 1 : Site web sur l'informatique dans le domaine medicale (tp) </h3>
+    <p> Il s'agit d'un travail donné par un profeseur sur un thème specifique (le site n'est pas responsive)
+      <a href="https://rifa2007.github.io/page-web-info/index.html"> Le Site</a>
+    </p>
+            <div id="carouselExample" class="carousel slide w-75">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="infosant1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+            <img src="infosant2.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+            <img src="infosant3.png" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+            </div>
+  <h3> Projet 2 : App Calculatrice (Java) </h3>
+  <div class="row">
+    <p> j'ai eu l'idée de faire ce projets pour avoir une meillieur comprehension du frontend java
+         et mieux comprendre les algorithme
+        <a href="https://github.com/RiFa2007/Personal"> Repo Github </a> </p>
+        <a href="https://github.com/RiFa2007/Personal/tree/main/Calculatrice" ><img src="Calc.png"  class="Calc"></a>
+    </div>
+  <h3> Projet 3 : App TicTacToe (Java) </h3>
+  <div class="row">
+    <div class="col-12"><p> Application de jeu TicTacToe en java avec une IA simple pour jouer contre l'ordinateur
+        <a href="https://github.com/RiFa2007/Personal"> Repo Github </a> </p></div>
+        <div class="col-12"><img src="tictac.gif" class="gif"></div>
+    </div>
+  <h3> Projet 4 : snake game (Java) </h3>
+  <div class="row">
+    <div class="col-12"><p> petit jeu Snake en java Pour mieux comprendre les evenement en java et les gameloops
+        <a href="https://github.com/RiFa2007/Personal"> Repo Github </a> </p></div>
+    <div class="col-12 h-3"><img src="snake.gif" class="gif"></div>
+    </div>
+    <button id="back" class="btn btn-primary mt-5 mb-3 " onclick="PremiereFunc()"> Retour </button>
+</section>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+      function PremiereFunc(){
+      window.history.back();
+    }
+    </script>
+</body>
+</html>
