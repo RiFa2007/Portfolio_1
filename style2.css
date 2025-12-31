@@ -17,8 +17,8 @@ html, body {
 }
 
 #projects .Calc{
-    width:500px;
-    height: 500px;
+  width: 38em;
+  height: 38em;
 }
 #projects {
     text-align:center;
@@ -28,8 +28,8 @@ html, body {
     margin:auto;
 }
 #projects img.gif {
-  width: 500px;
-  height: 350px;
+  width: 38em;
+  height: 30em;
 }
 #projects h3{
     margin-top:3em;
@@ -42,4 +42,5 @@ html, body {
 
     margin-top:1em;
 }
+
 
